@@ -12,7 +12,7 @@ pool:
 steps:
 - script: |
     echo "buiding the pipeline"
-    mvm package
+    mvn package
   displayName: Building with maven
 
 
